@@ -1,0 +1,78 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='3840' height='2160' viewBox='0 0 3840 2160' role='img' aria-label='Sonic Studio 05 silver'>
+  <defs>
+    <linearGradient id='bg' x1='0' y1='0' x2='1' y2='1'>
+      <stop offset='0%' stop-color='#05070B'/>
+      <stop offset='50%' stop-color='#0D111C'/>
+      <stop offset='100%' stop-color='#121A24'/>
+    </linearGradient>
+    <radialGradient id='glowA' cx='48%' cy='38%' r='44%'>
+      <stop offset='0%' stop-color='#E8EBEF' stop-opacity='0.55'/>
+      <stop offset='100%' stop-color='#84878C' stop-opacity='0'/>
+    </radialGradient>
+    <radialGradient id='glowB' cx='68%' cy='72%' r='40%'>
+      <stop offset='0%' stop-color='#6BA8FF' stop-opacity='0.2'/>
+      <stop offset='100%' stop-color='#06080E' stop-opacity='0'/>
+    </radialGradient>
+    <linearGradient id='metal' x1='0' y1='0' x2='1' y2='0'>
+      <stop offset='0%' stop-color='#2C323D'/>
+      <stop offset='45%' stop-color='#B3BCC9'/>
+      <stop offset='55%' stop-color='#F1F4FA'/>
+      <stop offset='100%' stop-color='#2B3240'/>
+    </linearGradient>
+    <linearGradient id='body' x1='0' y1='0' x2='1' y2='1'>
+      <stop offset='0%' stop-color='#8B8E93'/>
+      <stop offset='55%' stop-color='#D6DBE3'/>
+      <stop offset='100%' stop-color='#DEE2E8'/>
+    </linearGradient>
+    <radialGradient id='highlight' cx='35%' cy='30%' r='70%'>
+      <stop offset='0%' stop-color='#FFFFFF' stop-opacity='0.5'/>
+      <stop offset='100%' stop-color='#FFFFFF' stop-opacity='0'/>
+    </radialGradient>
+    <filter id='drop' x='-30%' y='-30%' width='160%' height='160%'>
+      <feDropShadow dx='0' dy='40' stdDeviation='35' flood-color='#02040A' flood-opacity='0.9'/>
+    </filter>
+    <filter id='soft' x='-50%' y='-50%' width='200%' height='200%'>
+      <feGaussianBlur stdDeviation='16'/>
+    </filter>
+    <pattern id='grain' width='120' height='120' patternUnits='userSpaceOnUse'>
+      <rect width='120' height='120' fill='transparent'/>
+      <circle cx='58' cy='83' r='1' fill='#FFFFFF' fill-opacity='0.07'/>
+      <circle cx='98' cy='18' r='1' fill='#FFFFFF' fill-opacity='0.05'/>
+      <circle cx='28' cy='98' r='1' fill='#FFFFFF' fill-opacity='0.09'/>
+    </pattern>
+  </defs>
+  <rect width='3840' height='2160' fill='url(#bg)'/>
+  <rect width='3840' height='2160' fill='url(#glowA)'/>
+  <rect width='3840' height='2160' fill='url(#glowB)'/>
+  <rect width='3840' height='2160' fill='url(#grain)'/>
+  <ellipse cx='1920' cy='1680' rx='860' ry='180' fill='#010207' fill-opacity='0.7' filter='url(#soft)'/>
+
+  <g transform='translate(1920 1130) rotate(3)' filter='url(#drop)'>
+    <path d='M-474 -140 C-474 -470 -170 -650 0 -660 C170 -650 474 -470 474 -140' stroke='url(#metal)' stroke-width='48' fill='none' stroke-linecap='round'/>
+    <g transform='translate(-510 40)'>
+      <ellipse cx='0' cy='220' rx='228' ry='292' fill='#0A0F16'/>
+      <ellipse cx='0' cy='220' rx='196' ry='252' fill='url(#body)'/>
+      <ellipse cx='-38' cy='144' rx='88' ry='80' fill='url(#highlight)'/>
+      <ellipse cx='0' cy='220' rx='162' ry='198' fill='none' stroke='#0B0F18' stroke-width='28'/>
+    </g>
+    <g transform='translate(510 40)'>
+      <ellipse cx='0' cy='220' rx='228' ry='292' fill='#0A0F16'/>
+      <ellipse cx='0' cy='220' rx='196' ry='252' fill='url(#body)'/>
+      <ellipse cx='-38' cy='144' rx='88' ry='80' fill='url(#highlight)'/>
+      <ellipse cx='0' cy='220' rx='162' ry='198' fill='none' stroke='#0B0F18' stroke-width='28'/>
+    </g>
+    <ellipse cx='0' cy='-560' rx='180' ry='60' fill='#DEE2E8' fill-opacity='0.18'/>
+  </g>
+
+      <path d='M2260 1170 C2340 1260 2460 1400 2485 1580 C2500 1690 2495 1810 2550 1920' stroke='url(#metal)' stroke-width='20' fill='none' stroke-linecap='round'/>
+      <rect x='2534' y='1910' width='44' height='128' rx='18' fill='#C5CED9'/>
+      <circle cx='2556' cy='2038' r='22' fill='#8893A4'/>
+
+
+  <g font-family='"Space Grotesk", "Avenir Next", sans-serif' fill='#F5F8FF'>
+    <text x='220' y='280' font-size='50' letter-spacing='9' opacity='0.86'>SONIC</text>
+    <text x='220' y='350' font-size='94' font-weight='700'>SONIC STUDIO 05</text>
+    <text x='220' y='422' font-size='44' opacity='0.84'>OVER-EAR WIRED STUDIO   /   SILVER</text>
+    <text x='220' y='2030' font-size='30' letter-spacing='5' opacity='0.7'>AAUDIO ECOSYSTEM  •  SPATIAL AUDIO  •  APP-CONTROLLED EQ  •  HYBRID ANC</text>
+  </g>
+</svg>

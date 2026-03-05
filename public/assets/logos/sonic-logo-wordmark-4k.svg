@@ -1,0 +1,20 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='3840' height='2160' viewBox='0 0 3840 2160' aria-label='Sonic Logo Wordmark'>
+  <defs>
+    <linearGradient id='bg' x1='0' y1='0' x2='1' y2='1'>
+      <stop offset='0%' stop-color='#05070B'/>
+      <stop offset='100%' stop-color='#111925'/>
+    </linearGradient>
+    <linearGradient id='mark' x1='0' y1='0' x2='1' y2='1'>
+      <stop offset='0%' stop-color='#3B8BFF'/>
+      <stop offset='100%' stop-color='#2ED6B4'/>
+    </linearGradient>
+  </defs>
+  <rect width='100%' height='100%' fill='url(#bg)'/>
+  <g transform='translate(710 1080)'>
+    <circle cx='0' cy='0' r='240' fill='none' stroke='url(#mark)' stroke-width='52'/>
+    <path d='M-120 -20 C-20 -180 120 -100 120 40 C120 170 -10 200 -114 80' stroke='url(#mark)' stroke-width='62' fill='none' stroke-linecap='round'/>
+    <circle cx='172' cy='-168' r='24' fill='#7BB4FF'/>
+  </g>
+  <text x='1100' y='1180' fill='#F4F7FF' font-size='340' font-weight='700' font-family='"Space Grotesk", "Avenir Next", sans-serif' letter-spacing='8'>SONIC</text>
+  <text x='1110' y='1312' fill='#A8B6CC' font-size='74' font-family='"Space Grotesk", sans-serif' letter-spacing='12'>AAUDIO ECOSYSTEM</text>
+</svg>

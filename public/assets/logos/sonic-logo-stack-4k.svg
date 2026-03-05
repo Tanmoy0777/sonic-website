@@ -1,0 +1,22 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='3840' height='2160' viewBox='0 0 3840 2160' aria-label='Sonic Stacked Logo'>
+  <defs>
+    <linearGradient id='bg' x1='0' y1='0' x2='1' y2='1'>
+      <stop offset='0%' stop-color='#06090F'/>
+      <stop offset='100%' stop-color='#131D2D'/>
+    </linearGradient>
+    <linearGradient id='bars' x1='0' y1='0' x2='0' y2='1'>
+      <stop offset='0%' stop-color='#7DC7FF'/>
+      <stop offset='100%' stop-color='#56F0BF'/>
+    </linearGradient>
+  </defs>
+  <rect width='100%' height='100%' fill='url(#bg)'/>
+  <g transform='translate(900 700)' fill='url(#bars)'>
+    <rect x='0' y='180' width='92' height='620' rx='46'/>
+    <rect x='150' y='80' width='92' height='720' rx='46'/>
+    <rect x='300' y='0' width='92' height='800' rx='46'/>
+    <rect x='450' y='110' width='92' height='690' rx='46'/>
+    <rect x='600' y='240' width='92' height='560' rx='46'/>
+  </g>
+  <text x='1730' y='1042' fill='#F4F7FF' font-size='272' font-weight='700' font-family='"Space Grotesk", sans-serif' letter-spacing='8'>SONIC</text>
+  <text x='1736' y='1174' fill='#A2B4CD' font-size='68' font-family='"Space Grotesk", sans-serif' letter-spacing='10'>PREMIUM AUDIO</text>
+</svg>

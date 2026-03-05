@@ -1,0 +1,51 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='3840' height='2160' viewBox='0 0 3840 2160' role='img' aria-label='Active Runner Fit'>
+  <defs>
+    <linearGradient id='bg' x1='0' y1='0' x2='1' y2='1'>
+      <stop offset='0%' stop-color='#05070B'/>
+      <stop offset='100%' stop-color='#121A28'/>
+    </linearGradient>
+    <radialGradient id='glow' cx='64%' cy='34%' r='56%'>
+      <stop offset='0%' stop-color='#7BCFB8' stop-opacity='0.42'/>
+      <stop offset='100%' stop-color='#0FA87E' stop-opacity='0'/>
+    </radialGradient>
+    <linearGradient id='skin' x1='0' y1='0' x2='1' y2='1'>
+      <stop offset='0%' stop-color='#FFD3B0'/>
+      <stop offset='100%' stop-color='#D6A887'/>
+    </linearGradient>
+    <linearGradient id='fit' x1='0' y1='0' x2='0' y2='1'>
+      <stop offset='0%' stop-color='#151D2A'/>
+      <stop offset='100%' stop-color='#0C1018'/>
+    </linearGradient>
+    <linearGradient id='accent' x1='0' y1='0' x2='1' y2='1'>
+      <stop offset='0%' stop-color='#0C8664'/>
+      <stop offset='100%' stop-color='#33B591'/>
+    </linearGradient>
+    <filter id='drop' x='-30%' y='-30%' width='160%' height='160%'>
+      <feDropShadow dx='0' dy='26' stdDeviation='24' flood-color='#02040A' flood-opacity='0.86'/>
+    </filter>
+  </defs>
+  <rect width='100%' height='100%' fill='url(#bg)'/>
+  <rect width='100%' height='100%' fill='url(#glow)'/>
+
+  <g transform='translate(1900 1200)' filter='url(#drop)'>
+    <ellipse cx='0' cy='-370' rx='225' ry='285' fill='url(#skin)'/>
+    <path d='M-380 760 C-220 420 -140 230 0 250 C140 230 220 420 380 760' fill='url(#fit)'/>
+    <path d='M-420 910 C-280 680 -130 540 0 560 C130 540 280 680 420 910' fill='url(#fit)'/>
+    <g transform='translate(-260 -250) rotate(-24)'>
+      <ellipse cx='0' cy='0' rx='66' ry='88' fill='url(#accent)'/>
+      <rect x='38' y='-12' width='50' height='160' rx='24' fill='url(#accent)'/>
+    </g>
+    <g transform='translate(260 -250) rotate(24)'>
+      <ellipse cx='0' cy='0' rx='66' ry='88' fill='url(#accent)'/>
+      <rect x='-88' y='-12' width='50' height='160' rx='24' fill='url(#accent)'/>
+    </g>
+    <path d='M-460 860 C-310 620 -250 560 -110 440' stroke='url(#accent)' stroke-width='24' fill='none' stroke-linecap='round' opacity='0.7'/>
+    <path d='M450 860 C300 620 240 560 100 440' stroke='url(#accent)' stroke-width='24' fill='none' stroke-linecap='round' opacity='0.7'/>
+  </g>
+
+  <g font-family='"Space Grotesk", sans-serif' fill='#ECF2FF'>
+    <text x='220' y='306' font-size='54' letter-spacing='8' opacity='0.86'>SONIC LIFESTYLE SERIES</text>
+    <text x='220' y='395' font-size='94' font-weight='700'>ACTIVE RUNNER FIT</text>
+    <text x='220' y='2020' font-size='30' letter-spacing='5' opacity='0.72'>AI-STYLED CONCEPT MODEL VISUAL  •  4K ARTBOARD  •  PREMIUM DARK GRADIENT THEME</text>
+  </g>
+</svg>
