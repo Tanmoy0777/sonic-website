@@ -26,7 +26,7 @@ function renderLogos(logos) {
     .map(
       (file) => `
       <article class="logo-card reveal">
-        <img src="./public/assets/logos/${file}" alt="${titleFromFile(file)}" loading="lazy" />
+        <img src="./assets/logos/${file}" alt="${titleFromFile(file)}" loading="lazy" />
         <div class="card-body">
           <h3 class="card-title">${titleFromFile(file).replace("Sonic Logo ", "")}</h3>
           <p class="card-meta">4K vector logo concept</p>
@@ -42,7 +42,7 @@ function renderLifestyle(files) {
     .map(
       (file) => `
       <article class="life-card reveal">
-        <img src="./public/assets/lifestyle/${file}" alt="${titleFromFile(file)}" loading="lazy" />
+        <img src="./assets/lifestyle/${file}" alt="${titleFromFile(file)}" loading="lazy" />
         <div class="card-body">
           <h3 class="card-title">${titleFromFile(file)}</h3>
           <p class="card-meta">AI-styled lifestyle concept render</p>
@@ -86,7 +86,7 @@ function renderProducts() {
     .map(
       (item) => `
       <article class="product-card reveal">
-        <img src="./public/assets/products/${item.file}" alt="${item.model} ${item.color}" loading="lazy" />
+        <img src="./assets/products/${item.file}" alt="${item.model} ${item.color}" loading="lazy" />
         <div class="card-body">
           <h3 class="card-title">${item.model}</h3>
           <p class="card-meta">${item.category_label}</p>
