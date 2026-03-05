@@ -19,6 +19,15 @@ npm install
 npm run dev
 ```
 
+## GitHub Pages Publish
+This repo is configured to auto-publish on every push to `main` via:
+
+- `.github/workflows/deploy-pages.yml`
+
+Expected live URL:
+
+`https://tanmoy0777.github.io/sonic-website/`
+
 ## Optional Spline Scene
 Set an environment variable before `npm run dev`:
 
