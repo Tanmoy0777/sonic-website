@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sonic Brand Lab - Portfolio Preview</title>
+    <meta
+      name="description"
+      content="Sonic premium audio brand concept: logos, products, and lifestyle portfolio in a dark-gradient visual system."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="ambient-glow ambient-one"></div>
+    <div class="ambient-glow ambient-two"></div>
+
+    <header class="topbar">
+      <div class="brand-lockup">
+        <span class="brand-mark">S</span>
+        <span class="brand-name">SONIC</span>
+      </div>
+      <nav class="topnav">
+        <a href="#logos">Logos</a>
+        <a href="#products">Products</a>
+        <a href="#lifestyle">Lifestyle</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <button class="primary-btn">Build Full Site</button>
+    </header>
+
+    <main>
+      <section class="hero reveal">
+        <p class="eyebrow">Fixaplan-Inspired Premium Layout</p>
+        <h1>SONIC<br />Audio, Reimagined</h1>
+        <p class="hero-copy">
+          Dark-gradient premium identity for Sonic AAudio: flagship headphones, earbuds, speakers, and app-powered
+          sound control with studio-grade precision.
+        </p>
+        <div class="hero-actions">
+          <button class="primary-btn">Review Portfolio</button>
+          <button class="ghost-btn">Motion Blueprint</button>
+        </div>
+        <div class="metrics">
+          <div>
+            <p>210</p>
+            <span>4K Product Renders</span>
+          </div>
+          <div>
+            <p>35</p>
+            <span>Product Ranges</span>
+          </div>
+          <div>
+            <p>6</p>
+            <span>Colorways Each</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="logo-marquee reveal">
+        <div class="ticker">
+          <span>Spatial Audio</span>
+          <span>Hybrid ANC</span>
+          <span>Adaptive EQ</span>
+          <span>App-Controlled Profiles</span>
+          <span>Pro Codec Support</span>
+          <span>3D Acoustic Mesh</span>
+          <span>Wear Detection</span>
+          <span>Multi-Device Pairing</span>
+        </div>
+      </section>
+
+      <section class="section reveal" id="logos">
+        <div class="section-header">
+          <p class="eyebrow">Logo Concepts</p>
+          <h2>Sonic Brand Marks</h2>
+          <p>Five high-resolution logo routes designed for packaging, app icons, and website hero usage.</p>
+        </div>
+        <div class="logo-grid" id="logoGrid"></div>
+      </section>
+
+      <section class="section reveal" id="products">
+        <div class="section-header">
+          <p class="eyebrow">Product Portfolio</p>
+          <h2>Multi-Category Product System</h2>
+          <p>
+            35 product ranges across over-ear, wired, in-ear Bluetooth, in-ear wired, and speakers. Each range has six
+            color variants.
+          </p>
+        </div>
+
+        <div class="controls">
+          <label>
+            Category
+            <select id="categorySelect"></select>
+          </label>
+          <label>
+            Color
+            <select id="colorSelect"></select>
+          </label>
+          <label>
+            Samples
+            <select id="sizeSelect">
+              <option value="8">8</option>
+              <option value="12" selected>12</option>
+              <option value="16">16</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="product-grid" id="productGrid"></div>
+        <p class="grid-note" id="productCount">Loading product assets...</p>
+      </section>
+
+      <section class="section reveal" id="lifestyle">
+        <div class="section-header">
+          <p class="eyebrow">AI Model Concepts</p>
+          <h2>Lifestyle Visual Direction</h2>
+          <p>Stylized concept models wearing Sonic products, aligned to the dark premium visual language.</p>
+        </div>
+        <div class="lifestyle-grid" id="lifestyleGrid"></div>
+      </section>
+
+      <section class="section reveal">
+        <div class="section-header">
+          <p class="eyebrow">Motion Language</p>
+          <h2>Animation Blueprint for Full Build</h2>
+          <p>
+            Sticky nav, reveal-on-scroll, parallax glows, hover lift cards, smooth accordion transitions, and marquee
+            loops adapted from the reference structure.
+          </p>
+        </div>
+        <div class="feature-grid">
+          <article>
+            <h3>Hero entrance</h3>
+            <p>Layered fade-up text and CTA scaling sequence.</p>
+          </article>
+          <article>
+            <h3>Card hover motion</h3>
+            <p>Depth lift with gradient halo and slight 3D tilt.</p>
+          </article>
+          <article>
+            <h3>Scroll reveal</h3>
+            <p>Staggered section transitions tied to viewport entry.</p>
+          </article>
+          <article>
+            <h3>Marquee strip</h3>
+            <p>Continuous audio-tech ticker for momentum and trust.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal" id="faq">
+        <div class="section-header">
+          <p class="eyebrow">FAQ</p>
+          <h2>Before Website Integration</h2>
+        </div>
+        <div class="faq-list">
+          <details>
+            <summary>Are these 4K assets editable?</summary>
+            <p>Yes. All generated outputs are vector SVG on 3840x2160 artboards and can be edited in Figma/Illustrator.</p>
+          </details>
+          <details>
+            <summary>Can we switch to photoreal 3D renders later?</summary>
+            <p>Yes. These are premium concept visuals to validate direction before replacing with final rendered product imagery.</p>
+          </details>
+          <details>
+            <summary>Will the final site mirror Fixaplan structure?</summary>
+            <p>
+              Yes. The full build will follow similar section rhythm and animation behavior while using a unique Sonic layout,
+              copy, and visual identity.
+            </p>
+          </details>
+        </div>
+      </section>
+
+      <section class="cta reveal">
+        <h2>Ready for full Sonic website build?</h2>
+        <p>Approve the brand and asset direction, then I’ll implement the complete interactive site structure next.</p>
+      </section>
+    </main>
+
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>
